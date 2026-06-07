@@ -42,8 +42,8 @@ if(!isemail){
     throw new Error("Pleas provide the crt quries")
 
 }
-
-res.status(200).json({message:"Logins successfull"})
+isemail.Password = " "
+res.status(200).json({message:"Logins successfull", isemail})
     
 }
 
