@@ -43,6 +43,6 @@ if(!isemail){
 
 }
 
-// res.status(200).json({message:"Logins successfull"})
+res.status(200).json({message:"Logins successfull"})
     
 }  
