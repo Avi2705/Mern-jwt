@@ -47,3 +47,6 @@ res.status(200).json({message:"Logins successfull"})
     
 }
 
+export const updateUser = async(req,res)=>{
+    
+}
